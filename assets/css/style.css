@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+header {
+    background-color: aqua;
+}
+
+.logo {
+    font-family: Caveat;
+    font-size: 150%;
+    padding: 5px 0 0 20px;
+   
+}
+
+main {
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: blue;
+}
