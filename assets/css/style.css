@@ -125,7 +125,6 @@ header {
     justify-content: space-between;
     min-height: 110px;
     align-items: center;
-
     width: 100%;
 }
 
@@ -156,26 +155,7 @@ header {
     color: #1B3550;
     font-weight: 600;
     font-size: 24px;
-
 }
-
-nav li {
-    /* display: inline-block;
-    font-size: 170%;
-    padding-right: 50px;
-    text-align: center; */
-}
-
-
-
-.menu {
-    /* display: flex;
-    align-items: center; */
-}
-
-
-
-main {}
 
 .intro__container {
     display: flex;
@@ -184,13 +164,8 @@ main {}
     align-items: center;
 }
 
-.intro {
-
-}
-
 .intro__image {
     width: 550px;
- 
 }
 
 .intro__text {
@@ -199,8 +174,6 @@ main {}
     font-style: italic;
     padding: 0 15px;
 }
-
-
 
 
 
