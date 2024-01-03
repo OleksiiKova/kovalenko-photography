@@ -90,66 +90,121 @@ h6 {
     font-weight: 400;
 }
 
-/* Header */
+
 
 body {
     font-family: 'Open Sans';
-    /* display: flex; */
-    flex-direction: column;
+    color: #995e33;
+    height: 100%;
 }
 
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+._container {
+    max-width: 1100px;
+    margin: 0px auto;
+    padding: 0 15px;
+}
+
+/* -----------------------Header-------------------- */
 header {
-    background-color: #E6beb3;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background: rgb(232, 207, 186);
+    background: linear-gradient(90deg, rgba(232, 207, 186, 1) 35%, rgba(205, 231, 238, 1) 100%);
+}
+
+.header__container {
     display: flex;
     justify-content: space-between;
-    height: 110px;
+    min-height: 110px;
+    align-items: center;
+
+    width: 100%;
 }
 
-.logo {
+.header__menu {
+    margin: 0 0 0 100px;
+}
+
+.header__logo {
     font-family: Caveat;
-    font-size: 300%;
-    font-weight: 700;
-    padding: 10px 0px 0px 40px;
-    color: #995e33;
+    font-size: 36px;
+    color: #1B3550;
+    width: 300px;
+}
+
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.menu__item {
+    margin: 0 0 0 40px;
+
+
+}
+
+.menu__link {
+    color: #1B3550;
+    font-weight: 600;
+    font-size: 24px;
+
 }
 
 nav li {
-    display: inline-block;
+    /* display: inline-block;
     font-size: 170%;
     padding-right: 50px;
-    text-align: center;
+    text-align: center; */
 }
 
-nav a {
-    color: #995e33;
-    font-weight: 600;
-}
+
 
 .menu {
+    /* display: flex;
+    align-items: center; */
+}
+
+
+
+main {}
+
+.intro__container {
     display: flex;
+    margin-top: 110px;
+    padding: 20px;
     align-items: center;
 }
 
-
-
-main {
-  flex: 1 0 auto;  
-}
 .intro {
-display: flex;
-justify-content: center;
+
 }
 
-.intro img {
-    width: 300px;
+.intro__image {
+    width: 550px;
+ 
 }
 
-.intro p {
-    color: #995e33;
-    width: 300px;
-    align-items: center;
+.intro__text {
+    color: #1B3550;
+    font-size: 20px;
+    font-style: italic;
+    padding: 0 15px;
 }
+
+
+
+
 
 footer {
-    background-color: blue;
+    background-color: #E6beb3;
+
 }
