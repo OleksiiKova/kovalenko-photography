@@ -96,11 +96,15 @@ body {
     font-family: 'Open Sans';
     color: #1B3550;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .wrapper {
     min-height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
 }
 
 ._container {
@@ -157,6 +161,11 @@ header {
     font-size: 24px;
 }
 
+main {
+  /* Make main element take up any surplus space to push footer down */
+  flex: 1 0 auto;
+}
+
 .intro__container {
     display: flex;
     margin-top: 110px;
@@ -181,10 +190,32 @@ header {
     padding-left: 200px;
 }
 
+.services__container {
+    margin-top: 20px;
+}
+
+
+.services__title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.services__item {
+    display: flex;
+    /* justify-content: center; */
+    padding: 10px;
+}
+
+.services__image {
+    width: 400px;
+}
+/* ----------------Footer-------------------- */
 footer {
     background: rgb(232, 207, 186);
     background: linear-gradient(90deg, rgba(232, 207, 186, 1) 35%, rgba(205, 231, 238, 1) 100%);
-    min-height: 40px;
+    min-height: 54px;
 }
 
 .social-media__list {
