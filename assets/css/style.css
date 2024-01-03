@@ -239,12 +239,19 @@ main {
 .services__button {
     background-color: #1B3550;
     color: #CDE7EE;
-    width: 100px;
+    width: 120px;
     align-self: flex-end;
     min-height: 30px;
     border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+}
 
-    
+.services__button:hover {
+    background-color: #CDE7EE;
+    color: #1B3550;
+    box-shadow: 2px 5px 8px 3px #1B3550;
 }
 
 /* ----------------Footer-------------------- */
