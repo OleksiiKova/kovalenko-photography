@@ -94,7 +94,7 @@ h6 {
 
 body {
     font-family: 'Open Sans';
-    color: #995e33;
+    color: #1B3550;
     height: 100%;
 }
 
@@ -168,14 +168,18 @@ header {
     width: 550px;
 }
 
-.intro__text {
-    color: #1B3550;
-    font-size: 20px;
-    font-style: italic;
-    padding: 0 15px;
+.intro__title {
+    font-size: 48px;
+    font-family: Caveat;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-
+.intro__quote {
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 200px;
+}
 
 footer {
     background-color: #E6beb3;
