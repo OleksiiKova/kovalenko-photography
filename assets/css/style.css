@@ -292,6 +292,13 @@ main {
     padding-bottom: 20px;
     margin-top: 100px;
 }
+
+.gallery__wedding img:hover,
+.gallery__newborn img:hover,
+.gallery__family img:hover {
+    transform: scale(1.1);
+}
+
 .gallery__subtitle {
     text-align: center;
     font-size: 24px;
@@ -307,14 +314,16 @@ main {
 .gallery__wedding {}
 
 .gallery__wedding img,
-.gallery__newborn img {
+.gallery__newborn img,
+.gallery__family img {
     width: 100%;
     line-height: 1em;
 
 }
 
 .gallery__wedding,
-.gallery__newborn {
+.gallery__newborn,
+.gallery__family {
     line-height: 0;
     column-count: 4;
     gap: 0;
