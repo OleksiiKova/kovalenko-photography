@@ -279,6 +279,11 @@ main {
     width: 300px;
 }
 
+.gallery_list a:visited,
+.gallery__item a:visited {
+    color: #1B3550;
+}
+
 .back {
     color: #1B3550;
     font-size: 16px;
@@ -301,13 +306,15 @@ main {
 
 .gallery__wedding {}
 
-.gallery__wedding img {
+.gallery__wedding img,
+.gallery__newborn img {
     width: 100%;
     line-height: 1em;
 
 }
 
-.gallery__wedding {
+.gallery__wedding,
+.gallery__newborn {
     line-height: 0;
     column-count: 4;
     gap: 0;
