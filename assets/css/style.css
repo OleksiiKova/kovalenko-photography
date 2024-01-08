@@ -350,30 +350,35 @@ main {
 
 .contact__container h2 {
     font-family: Caveat;
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 .contact__form {
+
     text-align: center;
 }
 
 .contact__form label {
-text-align: right;
     font-size: 20px;
 }
 
+.contact_required {
+    font-size: 16px;
+    font-style: italic;
+}
+
 .text-input {
-  padding: 0 5px;
-  height: 25px;
-  width: 200px;
-  margin: 5px 0 20px 0;
-  border: 1px solid #1B3550;
-  border-radius: 5px;
- background-color: #E8CFBA;
- font-size: 16px;
+    padding: 0 5px;
+    height: 25px;
+    width: 300px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #1B3550;
+    border-radius: 5px;
+    background-color: #E8CFBA;
+    font-size: 16px;
 }
 
 .button_contact {
@@ -381,7 +386,6 @@ text-align: right;
     color: #CDE7EE;
     width: 120px;
     border-radius: 5px;
-    text-align: center;
     padding: 10px;
 }
 
@@ -542,6 +546,15 @@ footer {
 
     .back {
         font-size: 12px;
+    }
+
+    /* Contact page */
+    .text-input {
+        width: 220px;
+    }
+
+    .contact__form {
+        margin-bottom: 20px;
     }
 
     /* Footer  */
