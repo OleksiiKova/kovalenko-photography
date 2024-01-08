@@ -110,7 +110,7 @@ body {
 ._container {
     max-width: 1100px;
     margin: 0px auto;
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 /* -----------------------Header-------------------- */
@@ -210,7 +210,7 @@ main {
 .services__item {
     display: flex;
     justify-content: space-between;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 0;
     width: 750px;
     margin: 0 auto;
     align-items: center;
@@ -285,6 +285,10 @@ main {
 .gallery_list {
     display: flex;
     flex-wrap: wrap;
+}
+
+.gallery_list a {
+    color: #1B3550;
 }
 
 .gallery_list img {
@@ -375,10 +379,19 @@ footer {
 
 @media screen and (max-width: 767px) {
 
+    ._container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     /* Navbar */
     .header__logo {
         line-height: 24px;
         font-size: 24px;
+    }
+
+    .header__menu {
+        margin: 0 0 0 80px;
     }
 
     .menu__item {
@@ -394,66 +407,60 @@ footer {
         font-size: 16px;
     }
 
+
     /* home page */
-.intro__container {
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    .intro__container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-.intro__image {
-    width: 300px;
+    .intro__image {
+        width: 100%;
+    }
 
+    .intro__title {
+        font-size: 28px;
+        text-align: center;
+        margin: 20px 0;
+    }
 
-}
+    .intro__quote {
+        font-size: 16px;
+        font-style: italic;
+        padding: 10px 0;
+    }
 
-.intro__title {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 20px;
-}
+    .services__container {
+        margin-top: 0;
+    }
 
-.intro__quote {
-    font-size: 16px;
-    font-style: italic;
-    padding: 20px 0;
-}
-/* .services__container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
+    .services__title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
 
-.services__title {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 25px;
-}
+    .services__item {
+        flex-wrap: wrap;
+        width: auto;
+        justify-content: center;
+        padding: 10px 0;
+    }
 
-.services__item {
-    flex-wrap: wrap;
-    width: auto;
-    justify-content: center;
-}
+    .services__image {
+        width: 100%;
+    }
 
-.services__image {
-    width: 300px;
-}
-.services__subtitle {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
+    .services__subtitle {
+        font-size: 16px;
+        margin: 10px 0;
+    }
 
-.services__button {
-    background-color: #1B3550;
-    color: #CDE7EE;
-    width: 120px;
-    align-self: center;
-    min-height: 30px;
-    border-radius: 5px;
-    text-align: center;
-    padding: 10px;
-    font-weight: 500;
-}
+    .services__button {
+        align-self: center;
+        min-height: 22px;
+        padding: 5px;
+        font-size: 12px;
+    }
 
     /* Gallery page */
     .gallery__wedding,
@@ -463,16 +470,34 @@ footer {
     }
 
     .gallery_list img {
-        width: 220px;
+        width: 100%;
         padding: 0;
         margin: 0;
     }
 
     .gallery__subtitle {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .gallery_list {
         margin-top: 80px;
     }
+
+    .back {
+    font-size: 12px;
 }
+
+    /* Footer  */
+    footer {
+        min-height: 36px;
+    }
+
+    .social-media__list {
+        display: flex;
+        padding: 10px;
+        width: 80px;
+    }
+
+    .social-media__item i {
+        font-size: 16px;
+    }
