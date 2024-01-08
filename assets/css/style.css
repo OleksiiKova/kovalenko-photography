@@ -25,12 +25,6 @@ a:active {
     outline: none;
 }
 
-nav,
-footer,
-header,
-aside {
-    display: block;
-}
 
 html,
 body {
@@ -76,10 +70,6 @@ ul li {
     list-style: none;
 }
 
-img {
-    vertical-align: top;
-}
-
 h1,
 h2,
 h3,
@@ -98,6 +88,10 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+
+    a {
+        color: #1B3550;
+    }
 }
 
 .wrapper {
@@ -112,6 +106,8 @@ body {
     margin: 0px auto;
     padding: 0 20px;
 }
+
+
 
 /* -----------------------Header-------------------- */
 header {
@@ -129,17 +125,11 @@ header {
     justify-content: space-between;
     min-height: 80px;
     align-items: center;
-    width: 100%;
-}
-
-.header__menu {
-    margin: 0 0 0 100px;
 }
 
 .header__logo {
     font-family: Caveat;
     font-size: 36px;
-    color: #1B3550;
     width: 300px;
 }
 
@@ -153,7 +143,6 @@ header {
 }
 
 .menu__link {
-    color: #1B3550;
     font-weight: 600;
     font-size: 20px;
 }
@@ -179,7 +168,7 @@ main {
 }
 
 .intro__image {
-    width: 550px;
+    width: 50%;
 }
 
 .intro__title {
@@ -284,7 +273,7 @@ main {
 /* ----------------Gallery page----------- */
 .gallery_list {
     display: flex;
-    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .gallery_list a {
@@ -324,7 +313,7 @@ main {
 
 .gallery__subtitle {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     margin: 20px 0;
 }
@@ -373,11 +362,22 @@ footer {
     .gallery__family {
         column-count: 3;
     }
+
+    .image_overlay:hover .overlay {
+        opacity: 0;
+    }
+
+    .gallery_list img {
+        width: 200px;
+    }
 }
+
 
 /* Media query: phone (before 767px) */
 
 @media screen and (max-width: 767px) {
+
+    /* Main style */
 
     ._container {
         padding-left: 5%;
@@ -386,7 +386,6 @@ footer {
 
     /* Navbar */
     .header__logo {
-        line-height: 24px;
         font-size: 24px;
     }
 
@@ -411,7 +410,6 @@ footer {
     /* home page */
     .intro__container {
         flex-wrap: wrap;
-        justify-content: center;
     }
 
     .intro__image {
@@ -428,6 +426,7 @@ footer {
         font-size: 16px;
         font-style: italic;
         padding: 10px 0;
+        text-align: center;
     }
 
     .services__container {
@@ -470,10 +469,11 @@ footer {
     }
 
     .gallery_list img {
-        width: 100%;
+        /* width: 100%; */
         padding: 0;
         margin: 0;
     }
+
 
     .gallery__subtitle {
         font-size: 16px;
@@ -481,11 +481,14 @@ footer {
 
     .gallery_list {
         margin-top: 80px;
+        gap: 0;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     .back {
-    font-size: 12px;
-}
+        font-size: 12px;
+    }
 
     /* Footer  */
     footer {
@@ -501,3 +504,14 @@ footer {
     .social-media__item i {
         font-size: 16px;
     }
+}
+
+/* Media query: small or portret phone (before 576) */
+@media screen and (max-width: 576px) {
+
+    .gallery__wedding,
+    .gallery__newborn,
+    .gallery__family {
+        column-count: 1;
+    }
+}
