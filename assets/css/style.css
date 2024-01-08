@@ -523,6 +523,7 @@ footer {
     .gallery__newborn,
     .gallery__family {
         column-count: 2;
+        
     }
 
     .gallery_list img {
@@ -579,5 +580,8 @@ footer {
     .gallery__newborn,
     .gallery__family {
         column-count: 1;
+        img {
+            padding-bottom: 10px;
+        }
     }
 }
