@@ -428,6 +428,12 @@ footer {
     }
 }
 
+.gallery__wedding img:hover,
+.gallery__newborn img:hover,
+.gallery__family img:hover {
+    transform: none;
+}
+
 
 /* Media query: phone (before 767px) */
 
