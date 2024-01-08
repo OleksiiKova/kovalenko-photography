@@ -85,7 +85,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    a {
+    a, a:visited {
         color: #1B3550;
     }
 }
