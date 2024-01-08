@@ -84,10 +84,6 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-
-    a, a:visited {
-        color: #1B3550;
-    }
 }
 
 .wrapper {
@@ -128,6 +124,7 @@ header {
     font-size: 36px;
     width: 300px;
     font-weight: 700;
+    color: #1B3550;
 }
 
 .menu__list {
@@ -142,6 +139,7 @@ header {
 .menu__link {
     font-weight: 600;
     font-size: 20px;
+    color: #1B3550;
 }
 
 .menu__link:hover {
