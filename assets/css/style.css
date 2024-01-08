@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* Reset styles */
 
@@ -42,10 +42,6 @@ input,
 button,
 textarea {
     font-family: inherit;
-}
-
-input::-ms-clear {
-    display: none;
 }
 
 button {
@@ -131,6 +127,7 @@ header {
     font-family: Caveat;
     font-size: 36px;
     width: 300px;
+    font-weight: 700;
 }
 
 .menu__list {
@@ -174,6 +171,7 @@ main {
 .intro__title {
     font-size: 48px;
     font-family: Caveat;
+    font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -333,11 +331,67 @@ main {
     gap: 0;
 }
 
+/* ---------------Contact page---------------- */
+
+.contact_wrapper {
+    position: relative;
+}
+
+.contact_background {
+    z-index: -1;
+    position: fixed;
+    opacity: 0.3;
+}
+
+.contact__container {
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.contact__container h2 {
+    font-family: Caveat;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact__form {
+    text-align: center;
+}
+
+.contact__form label {
+text-align: right;
+    font-size: 20px;
+}
+
+.text-input {
+  padding: 0 5px;
+  height: 25px;
+  width: 200px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #1B3550;
+  border-radius: 5px;
+ background-color: #E8CFBA;
+ font-size: 16px;
+}
+
+.button_contact {
+    background-color: #1B3550;
+    color: #CDE7EE;
+    width: 120px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+
+
 /* ----------------Footer-------------------- */
 footer {
     background: rgb(232, 207, 186);
     background: linear-gradient(90deg, rgba(232, 207, 186, 1) 35%, rgba(205, 231, 238, 1) 100%);
     min-height: 54px;
+    z-index: 98;
 }
 
 .social-media__list {
