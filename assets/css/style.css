@@ -142,18 +142,19 @@ header {
     color: #1B3550;
 }
 
-.menu__link:hover {
-    text-decoration: underline;
-}
-
+.menu__link:hover,
 .menu__active {
     text-decoration: underline;
 }
+
+/* -----------Home page------------- */
 
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
+
+/* Intro section */
 
 .intro__container {
     display: flex;
@@ -179,6 +180,8 @@ main {
     font-style: italic;
     padding-left: 200px;
 }
+
+/* Service section */
 
 .services__container {
     margin-top: 20px;
@@ -232,7 +235,6 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
 }
 
 .services__subtitle {
@@ -280,11 +282,11 @@ main {
     width: 300px;
 }
 
-.gallery_list a:visited,
+/* .gallery_list a:visited,
 .gallery__item a:visited,
 .gallery__container a:visited {
     color: #1B3550;
-}
+} */
 
 .back {
     color: #1B3550;
@@ -301,9 +303,7 @@ main {
     margin-top: 100px;
 }
 
-.gallery__wedding img:hover,
-.gallery__newborn img:hover,
-.gallery__family img:hover {
+.gallery__photos img:hover {
     transform: scale(1.1);
 }
 
@@ -314,16 +314,12 @@ main {
     margin: 20px 0;
 }
 
-.gallery__wedding img,
-.gallery__newborn img,
-.gallery__family img {
+.gallery__photos img {
     width: 100%;
     line-height: 1em;
 }
 
-.gallery__wedding,
-.gallery__newborn,
-.gallery__family {
+.gallery__photos {
     line-height: 0;
     column-count: 4;
     gap: 0;
@@ -355,7 +351,6 @@ main {
 }
 
 .contact__form {
-
     text-align: center;
 }
 
@@ -409,13 +404,13 @@ footer {
     color: #1B3550;
 }
 
-/* Media query: tablets and larger (768-992px) */
+/* -------------------Media query--------------- */
+
+/* Media query: tablets (768-992px) */
 @media screen and (max-width: 992px) {
 
     /* Gallery page */
-    .gallery__wedding,
-    .gallery__newborn,
-    .gallery__family {
+    .gallery__photos {
         column-count: 3;
     }
 
@@ -426,14 +421,11 @@ footer {
     .gallery_list img {
         width: 200px;
     }
-}
 
-.gallery__wedding img:hover,
-.gallery__newborn img:hover,
-.gallery__family img:hover {
-    transform: none;
+    .gallery__photos img:hover {
+        transform: none;
+    }
 }
-
 
 /* Media query: phone (before 767px) */
 
@@ -469,8 +461,7 @@ footer {
         line-height: 20px;
     }
 
-
-    /* home page */
+    /* Home page */
     .intro__container {
         flex-wrap: wrap;
     }
@@ -487,7 +478,6 @@ footer {
 
     .intro__quote {
         font-size: 16px;
-        font-style: italic;
         padding: 10px 0;
         text-align: center;
     }
@@ -525,19 +515,15 @@ footer {
     }
 
     /* Gallery page */
-    .gallery__wedding,
-    .gallery__newborn,
-    .gallery__family {
+    .gallery__photos {
         column-count: 2;
-        
     }
 
     .gallery_list img {
-        /* width: 100%; */
+        width: 100%;
         padding: 0;
         margin: 0;
     }
-
 
     .gallery__subtitle {
         font-size: 16px;
@@ -582,10 +568,9 @@ footer {
 /* Media query: small or portret phone (before 576) */
 @media screen and (max-width: 576px) {
 
-    .gallery__wedding,
-    .gallery__newborn,
-    .gallery__family {
+    .gallery__photos {
         column-count: 1;
+
         img {
             padding-bottom: 10px;
         }
