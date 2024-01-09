@@ -66,6 +66,8 @@ h6 {
     font-weight: 400;
 }
 
+/*---------------- General styles------------ */
+
 body {
     font-family: 'Open Sans';
     color: #1B3550;
@@ -267,12 +269,6 @@ main {
 .gallery_list img {
     width: 300px;
 }
-
-/* .gallery_list a:visited,
-.gallery__item a:visited,
-.gallery__container a:visited {
-    color: #1B3550;
-} */
 
 .back {
     color: #1B3550;
