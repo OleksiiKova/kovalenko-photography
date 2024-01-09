@@ -5,8 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kovalenko Photography</title>
+    <!-- Meta tags for search engines -->
+    <meta name="description" content="Photographer in Cork and coumty. Wedding, newborn and family sessions.">
+    <meta name="keywords"
+        content="photographer, Cork, wedding session, family session, professional photographer, county Cork Photographer, Photographer Ireland">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+
 </head>
 
 <body>
@@ -33,7 +39,8 @@
         </header>
         <main>
             <div class="contact_wrapper">
-                <img src="assets/images/pexels-pixabay-417059.webp" alt="Photograper at sunset" class="contact_background">
+                <img src="assets/images/pexels-pixabay-417059.webp" alt="Photograper at sunset"
+                    class="contact_background">
                 <section class="contact__container _container">
                     <form class="contact__form" action="https://formdump.codeinstitute.net" method="post">
                         <h2>Contact me</h2>
@@ -42,16 +49,18 @@
                         <input type="text" id="first_name" name="first_name" class="text-input" required />
                         <br>
                         <label for="last_name">Last Name</label><br>
-                        <input type="text" id="last_name" name="last_name" class="text-input"/>
+                        <input type="text" id="last_name" name="last_name" class="text-input" />
                         <br>
                         <label for="phone">Phone<br>
                             <span class="contact_required">(required)</span></label><br>
-                        <input type="tel" id="phone" name="phone" class="text-input" required >
+                        <input type="tel" id="phone" name="phone" class="text-input" required>
                         <br>
-                        <label for="email_address">Email Address <br><span class="contact_required">(required)</span></label><br>
+                        <label for="email_address">Email Address <br><span
+                                class="contact_required">(required)</span></label><br>
                         <input type="email" id="email_address" name="email_address" class="text-input" required />
                         <br>
-                        <label for="type_session">Type of session <br><span class="contact_required">(required)</span></label><br>
+                        <label for="type_session">Type of session <br><span
+                                class="contact_required">(required)</span></label><br>
                         <input list="session_options" id="type_session" name="type_session" class="text-input" required>
                         <datalist id="session_options">
                             <option value="Wedding session"></option>
@@ -59,7 +68,7 @@
                             <option value="Family session"></option>
                         </datalist>
                         <br>
-                        <label for="data_session"  required>Data of session</label><br>
+                        <label for="data_session" required>Data of session</label><br>
                         <input type="date" id="data_session" name="data_session" class="text-input" min="">
                         <br>
                         <button type="submit" class="button_contact">Send</button>
