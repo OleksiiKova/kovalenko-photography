@@ -196,6 +196,10 @@ main {
     width: 400px;
 }
 
+/* Overlay text on the image */
+
+/* The code was taken from the external source https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_title */
+
 .image_overlay:hover .overlay {
     opacity: 1;
 }
@@ -217,6 +221,7 @@ main {
     padding: 15px;
     text-align: center;
 }
+/* End overlay text on the image */
 
 .services__description {
     width: 300px;
