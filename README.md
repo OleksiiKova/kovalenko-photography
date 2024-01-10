@@ -8,10 +8,10 @@ Kovalenko photography is a website that will help people find a professional pho
 
 ### Existing Features
 - __Navigation Bar__
- - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
- - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-
-  ![Nav Bar](/media/nav.png)
+    - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
+    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+    
+    ![Nav Bar](/media/nav.png)
 
 - __Introduction section__
 
@@ -25,7 +25,7 @@ Kovalenko photography is a website that will help people find a professional pho
     - The services section will allow the user to see which type a photo session is available.
     - From this section user will have access to two ways of possible further use of the site: 
         1. click on the photo of the service and get acquainted with the photographer’s work in more detail;
-        2. click on the button "Book a sesion" and go to the contact me page.
+        2. click on the button "Book a sesion" and go to the Contact page.
         
         ![Services section](/media/service_section.png)
 
@@ -56,3 +56,30 @@ Kovalenko photography is a website that will help people find a professional pho
     - The user will be asked to submit their full name, phone, email addressбензу ща session and data of section. Some of them are required. 
     
     ![The Contact page](/media/contact_me.png)
+
+
+## Testing 
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Deployment
+
+The site was deployed to GitHub pages. 
+
+The live link can be found here - https://oleksiikova.github.io/kovalenko-photography/index.html 
+
+## Credits
+
+### Content
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- All images and photos on Kovalenko photography website (Home and Gallery page) were taken from [Pexels]https://www.pexels.com/
+
