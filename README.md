@@ -53,12 +53,25 @@ Kovalenko photography is a website that will help people find a professional pho
 - __The Contact page__
 
     - This page allows the user to leave their contact information. So that the photographer can contact and discuss the details of the shooting.
-    - The user will be asked to submit their full name, phone, email addressбензу ща session and data of section. Some of them are required. 
+    - The user will be asked to submit their full name, phone, email address, type of session and data of section. Some of them are required. 
     
     ![The Contact page](/media/contact_me.png)
 
 
 ## Testing 
+
+### Manual testing
+
+- The Kovalenko photography website has been tested on different screen sizes (phone, tablets and laptop). 
+- The website also has been tested on different browsers (Chrome, Opera, Safari and Microsoft Edge)
+- Logo, home, gallery and contact links in the navbar have been tested. When clicked, it will take you to the relevant page. Link's text on active page is underline.
+- When you hover over a picture with the type of photo session, the text “Click to open gallery” appears. When clicked opens relevant gallery.
+- When you hover the button "Book a session" changes color of button, when you click button a little bit transform (creates the effect of pressing a physical button). 
+- Facebook and Instagram links on the footer opens relevant photographer's profile on social media platform. 
+- On the gallery page when you click on the name of gallery or the photo of gallery, it opens relevant photo album. 
+- When you are in the Wedding gallery, Newborn gallery or Fammily gallery you can click on button "< Back to gallery" and it return you to Gallery page and you can choose another gallery album.
+- On the page Contact if you will not fill out required field, the button "Send" will not be work. And a notification about it will appear. 
+- After filling in all the required fields you can click the "Send" button and it will works.
 
 ### Validator Testing 
 
