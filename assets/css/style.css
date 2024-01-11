@@ -14,16 +14,6 @@
     box-sizing: border-box;
 }
 
-:focus,
-:active {
-    outline: none;
-}
-
-a:focus,
-a:active {
-    outline: none;
-}
-
 html,
 body {
     height: 100%;
@@ -54,16 +44,6 @@ a:hover {
 
 ul li {
     list-style: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: inherit;
-    font-weight: 400;
 }
 
 /*---------------- General styles------------ */
