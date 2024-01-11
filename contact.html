@@ -61,12 +61,12 @@
                         <br>
                         <label for="type_session">Type of session <br><span
                                 class="contact_required">(required)</span></label><br>
-                        <input list="session_options" id="type_session" name="type_session" class="text-input" required>
-                        <datalist id="session_options">
-                            <option value="Wedding session"></option>
-                            <option value="Newborn session"></option>
-                            <option value="Family session"></option>
-                        </datalist>
+                        <select id="type_session" name="type_session" class="text-input" required>
+                            <option value="">-Choose type of session-</option>
+                            <option value="Wedding session">Wedding session</option>
+                            <option value="Newborn session">Newborn session</option>
+                            <option value="Family session">Family session</option>
+                        </select>
                         <br>
                         <label for="data_session">Data of session</label><br>
                         <input type="date" id="data_session" name="data_session" class="text-input">

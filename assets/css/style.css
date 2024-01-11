@@ -241,7 +241,7 @@ main {
     background-color: #1B3550;
     color: #CDE7EE;
     width: 120px;
-    align-self: flex-end;
+    align-self: center;
     min-height: 30px;
     border-radius: 5px;
     text-align: center;
