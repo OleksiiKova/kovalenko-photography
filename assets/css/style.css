@@ -255,6 +255,14 @@ main {
 .gallery_list {
     display: flex;
     gap: 20px;
+    height: 100vh;
+    align-items: center;   
+}
+
+.footer-fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .gallery_list a {
@@ -268,11 +276,6 @@ main {
 .back {
     color: #1B3550;
     font-size: 16px;
-}
-
-.gallery_list {
-    margin-top: 100px;
-    padding-bottom: 20px;
 }
 
 .gallery__item {
