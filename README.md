@@ -63,6 +63,9 @@ Kovalenko photography is a website that will help people find a professional pho
     
     ![The Contact page](readme_images/contact_me.png)
 
+### Features Left to Implement
+
+- As I progress through the course and learn the back-end, I would like to set correct value of the action attribute of the form tag. So after press the send button, I receive an email with data.
 
 ## Testing 
 
