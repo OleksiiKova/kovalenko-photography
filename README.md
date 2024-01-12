@@ -94,8 +94,15 @@ Thanks to the Lighthouse test, which is built-in the Google Chrome browser, such
 
 ## Deployment
 
-The site was deployed to GitHub pages. 
+The site was deployed to Git Hub pages using the following steps:
 
+  - In the Github repository, the Setting tab.
+  - In Code and Automation section select 'Pages'.
+  - In the Build and Deployment section for Source, select 'Deploy from a branch' from the drop-down list.
+  - For Branch, select 'main' from the drop-down list and Save.
+  - On the top of the page, the link to the complete website is provided.
+The deployed site will update automatically upon new commits to the master branch.
+ 
 The live link can be found here - https://oleksiikova.github.io/kovalenko-photography/index.html 
 
 ## Credits
