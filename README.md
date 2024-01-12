@@ -112,8 +112,9 @@ The live link can be found here - https://oleksiikova.github.io/kovalenko-photog
 
 ### Content
 
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- To add the overlay (to the picture of type of sessions on Home page) were taken code from [W3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_title)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+- To add the overlay (to the picture of type of sessions on Home page) were taken code from [W3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_title).
+- To create a mobile navigation menu were taken piece of code from the project Love Running (which we studied in Code Institute, course Diploma in Full Stack Software Development) [Code Institute](https://github.com/Code-Institute-Solutions/love-running-v3).
 
 ### Media
 
