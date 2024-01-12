@@ -110,7 +110,7 @@ The live link can be found here - https://oleksiikova.github.io/kovalenko-photog
 ### Content
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- To add the [overlay] (to the picture of type of sessions on Home page) were taken code from (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_title)
+- To add the overlay (to the picture of type of sessions on Home page) were taken code from [W3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_title)
 
 ### Media
 
