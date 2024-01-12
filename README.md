@@ -90,7 +90,7 @@ Kovalenko photography is a website that will help people find a professional pho
 
 Thanks to the Lighthouse test, which is built-in the Google Chrome browser, such important indicators as performance, accessibility and SEO have been improved to almost the maximum value.
 
-![Lighthouse](readme_images/Lighthpuse_test.png)
+![Lighthouse](/readme_images/Lighthpuse_test.png)
 
 ## Deployment
 
