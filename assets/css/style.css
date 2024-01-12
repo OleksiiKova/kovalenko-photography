@@ -125,6 +125,14 @@ header {
     text-decoration: underline;
 }
 
+.nav-toggle-label {
+    display: none;
+}
+
+#nav-toggle {
+    display: none;
+}
+
 /* -----------Home page------------- */
 
 main {
@@ -211,6 +219,7 @@ main {
     padding: 15px;
     text-align: center;
 }
+
 /* End overlay text on the image */
 
 .services__description {
@@ -256,7 +265,7 @@ main {
     display: flex;
     gap: 20px;
     height: 100vh;
-    align-items: center;   
+    align-items: center;
 }
 
 .footer-fixed-bottom {
@@ -419,16 +428,16 @@ footer {
     }
 
     /* Navbar */
+
+    .header__container {
+    min-height: 60px;
+}
     .header__logo {
         font-size: 24px;
     }
 
-    .header__menu {
-        margin: 0 0 0 80px;
-    }
-
     .menu__item {
-        margin: 0;
+        /* margin: 0; */
     }
 
     .menu__list {
@@ -436,14 +445,47 @@ footer {
     }
 
     .menu__link {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 20px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    /* Navbar styles with dropdown toggle */
+
+    .nav-toggle-label {
+        display: block;
+    }
+
+    nav {
+        position: absolute;
+        background-color: #ffffff;
+        width: 100%;
+        left: 0;
+        box-shadow: 0 2px 2px #1B3550;
+        display: none;
+        top: 100%;
+        text-align: center;
+    }
+
+    /* Nav toggle */
+    #nav-toggle:checked~nav {
+        display: block;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    .nav-toggle-label {
+        font-size: 2rem;
     }
 
     /* Home page */
     .intro__container {
         flex-wrap: wrap;
+        margin-top: 60px;
     }
 
     .intro__image {
@@ -495,6 +537,7 @@ footer {
     }
 
     /* Gallery page */
+
     .gallery__photos {
         column-count: 2;
     }
@@ -510,7 +553,7 @@ footer {
     }
 
     .gallery_list {
-        margin-top: 80px;
+        margin-top: 60px;
         gap: 0;
         flex-wrap: wrap;
         justify-content: center;
@@ -520,6 +563,10 @@ footer {
         font-size: 12px;
     }
 
+    .gallery__item {
+        margin-top: 80px;
+    }
+
     /* Contact page */
     .text-input {
         width: 220px;
@@ -527,6 +574,10 @@ footer {
 
     .contact__form {
         margin-bottom: 20px;
+    }
+
+    .contact__container {
+        margin-top: 60px;
     }
 
     /* Footer  */
