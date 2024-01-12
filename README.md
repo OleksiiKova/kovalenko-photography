@@ -97,12 +97,12 @@ Thanks to the Lighthouse test, which is built-in the Google Chrome browser, such
 The site was deployed to Git Hub pages using the following steps:
 
   - In the Github repository, the Setting tab.
-  - In Code and Automation section select 'Pages'.
+  - In the left side of the screen in Code and Automation section select 'Pages'.
   - In the Build and Deployment section for Source, select 'Deploy from a branch' from the drop-down list.
   - For Branch, select 'main' from the drop-down list and Save.
   - On the top of the page, the link to the complete website is provided.
-The deployed site will update automatically upon new commits to the master branch.
- 
+  - The deployed site will update automatically upon new commits to the master branch.
+
 The live link can be found here - https://oleksiikova.github.io/kovalenko-photography/index.html 
 
 ## Credits
@@ -110,6 +110,7 @@ The live link can be found here - https://oleksiikova.github.io/kovalenko-photog
 ### Content
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- To add the [overlay] (to the picture of type of sessions on Home page) were taken code from (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_title)
 
 ### Media
 
