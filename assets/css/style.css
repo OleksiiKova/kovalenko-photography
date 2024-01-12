@@ -430,8 +430,9 @@ footer {
     /* Navbar */
 
     .header__container {
-    min-height: 60px;
-}
+        min-height: 60px;
+    }
+
     .header__logo {
         font-size: 24px;
     }
@@ -557,6 +558,8 @@ footer {
         gap: 0;
         flex-wrap: wrap;
         justify-content: center;
+        height: auto;
+        margin-bottom: 50px;
     }
 
     .back {
