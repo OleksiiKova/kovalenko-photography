@@ -437,10 +437,6 @@ footer {
         font-size: 24px;
     }
 
-    .menu__item {
-        /* margin: 0; */
-    }
-
     .menu__list {
         flex-direction: column;
     }
