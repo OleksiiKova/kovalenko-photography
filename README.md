@@ -4,6 +4,12 @@ Kovalenko photography is a website that will help people find a professional pho
 
 ![Responsice Mockup](/media/mockup.png)
 
+## Technologies
+
+1. HTML - To create a basic site
+2. CSS - To create front-end and to give a great user experience
+3. Balsamiq - To create a wireframe
+
 ## Features
 
 ### Existing Features
@@ -79,6 +85,12 @@ Kovalenko photography is a website that will help people find a professional pho
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## Lighthouse Test
+
+Thanks to the Lighthouse test, which is built-in the Google Chrome browser, such important indicators as performance, accessibility and SEO have been improved to almost the maximum value.
+
+![Lighthouse](readme_images/Lighthpuse_test.png)
 
 ## Deployment
 
