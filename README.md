@@ -1,14 +1,14 @@
 # Kovalenko photography
 
-Kovalenko photography is a website that will help people find a professional photographer for their photo shoot. The site will be targeted toward couples and families who want to capture different moments and events in their lives in photography.
+Kovalenko photography is a website that will help people find a professional photographer for their photo shoot. The site will be targeted toward couples and families who want to capture different moments and events of their lives in photographs.
 
 ![Responsice Mockup](readme_images/mockup.png)
 
 ## Technologies
 
-1. Balsamiq - to create a wireframe
-2. HTML - to create a basic site
-3. CSS - to create front-end and to give a great user experience
+1. Balsamiq - to create a wireframe.
+2. HTML - to create a basic site.
+3. CSS - to create front-end and to give a great user experience.
 4. GitHub - source code hosting and deployment.
 
 ## UX
@@ -17,7 +17,7 @@ Kovalenko photography is a website that will help people find a professional pho
 Since this is my first software project, I chose to create a simple photography services website. This website will allow the photographer to attract potential clients.
 
 ### Scope
-For users who are interested in the services of a photographer, I wanted to introduce them to a professional photographer. This site contains information of which services are provided and examples of work. And also allows you to stay in touch.
+For users interested in photography services, I wanted to introduce them to a professional photographer. The website contains information about what services are provided and examples of work. And also allows you to stay in touch.
 
 ### Structure
 Website pages:
@@ -26,13 +26,13 @@ Website pages:
 3. Gallery wedding/Gallery newborn/Gallery family: contains relevant photos.
 4. Contact page: allows user to stay in touch.
 
-All pages have header which allows navigation to different pages and footer which contains photographer's social media links.  
+All pages have a header that allows you to navigate to different pages and a footer that contains links to the photographer's social media.  
 
 ### Skeleton
 The website is designed to be clear and simple. To create a wireframe I used Balsamiq software. PDF file with my wireframe you cand find [here](/readme_images/wireframe_kovalenko_photography.pdf).
 
 ### Surface
-To prevent the site from being too cluttered, I used a palette of only three colors.
+To prevent the site from being too cluttered, I used a palette of only three colours.
 
 ![Palette](/readme_images/Colour_palette.png)
 
