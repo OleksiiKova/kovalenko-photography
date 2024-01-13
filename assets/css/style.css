@@ -324,6 +324,7 @@ main {
     z-index: -1;
     position: fixed;
     opacity: 0.3;
+    width: 100%;
 }
 
 .contact__container {
@@ -414,6 +415,10 @@ footer {
     .gallery__photos img:hover {
         transform: none;
     }
+
+    .contact_background {
+    width: auto;
+}
 }
 
 /* Media query: phone (before 767px) */

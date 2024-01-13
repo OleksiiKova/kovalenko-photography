@@ -85,9 +85,16 @@ Kovalenko photography is a website that will help people find a professional pho
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official W3C validator: [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Findex.html), [Gallery page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fgallery.html), [Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fcontact.html), [Gallery album page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fgallery_family.html).
+  - No errors were returned when passing through the official W3C validator: [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Findex.html), [Gallery page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fgallery.html), [Gallery album page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fgallery_family.html), [Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fcontact.html).
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Fixed Bugs
+
+ - When zoomed out on the contact page on larger screens, the background image did not completely fill the screen.
+ ![Unfixed background on Contact page](readme_images/Unfixed_back_Contact.png)
+  To solve this problem, the width property was applied with a value of 100% for screens larger than 992 px.
+  ![Fixed background on Contact page](readme_images/fixed_back_Contact.png)
 
 ## Lighthouse Test
 
