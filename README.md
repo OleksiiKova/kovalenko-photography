@@ -6,9 +6,24 @@ Kovalenko photography is a website that will help people find a professional pho
 
 ## Technologies
 
-1. HTML - To create a basic site
-2. CSS - To create front-end and to give a great user experience
-3. Balsamiq - To create a wireframe
+1. Balsamiq - to create a wireframe
+2. HTML - to create a basic site
+3. CSS - to create front-end and to give a great user experience
+4. GitHub - source code hosting and deployment.
+
+## UX
+
+### Skeleton
+The website is designed to be clear and simple. To create a wireframe I used Balsamiq software. PDF file with my wireframe you cand find [here](/readme_images/wireframe_kovalenko_photography.pdf)
+
+### Surface
+To prevent the site from being too cluttered, I used a palette of only three colors.
+
+![Palette](/readme_images/Colour_palette.png).
+
+For the contact page I selected an image that consists of similar shades of color that I used for the contentю
+
+![Colour_palette_Contact_page](/readme_images/Colour_palette_сontact.jpg)
 
 ## Features
 
@@ -92,8 +107,11 @@ Kovalenko photography is a website that will help people find a professional pho
 ### Fixed Bugs
 
  - When zoomed out on the contact page on larger screens, the background image did not completely fill the screen.
+
  ![Unfixed background on Contact page](readme_images/Unfixed_back_Contact.png)
+
   To solve this problem, the width property was applied with a value of 100% for screens larger than 992 px.
+
   ![Fixed background on Contact page](readme_images/fixed_back_Contact.png)
 
 ## Lighthouse Test
@@ -113,7 +131,7 @@ The site was deployed to Git Hub pages using the following steps:
   - On the top of the page, the link to the complete website is provided.
   - The deployed site will update automatically upon new commits to the master branch.
 
-The live link can be found here - https://oleksiikova.github.io/kovalenko-photography/index.html 
+The live link can be found [here](https://oleksiikova.github.io/kovalenko-photography/index.html).
 
 ## Credits
 
@@ -125,5 +143,5 @@ The live link can be found here - https://oleksiikova.github.io/kovalenko-photog
 
 ### Media
 
-- All images and photos on Kovalenko photography website (Home and Gallery page) were taken from [Pexels]https://www.pexels.com/
+- All images and photos on Kovalenko photography website (Home and Gallery page) were taken from [Pexels](https://www.pexels.com/).
 
