@@ -1,6 +1,6 @@
 # Kovalenko photography
 
-Kovalenko photography is a website that will help people find a professional photographer for their photo shoot. The site will be targeted toward couples and families who want to capture different moments and events of their lives in photographs.
+Kovalenko photography is a website that will help people find a professional photographer for their photo shoot. The site will be targeted toward people who want to capture different moments and events of their lives in photographs.
 
 ![Responsice Mockup](readme_images/mockup.png)
 
@@ -26,7 +26,7 @@ Website pages:
 3. Gallery wedding/Gallery newborn/Gallery family: contains relevant photos.
 4. Contact page: allows user to stay in touch.
 
-All pages have a header that allows you to navigate to different pages and a footer that contains links to the photographer's social media.  
+All pages have a header that allows you to navigate to different pages from any place and a footer that contains links to the photographer's social media.  
 
 ### Skeleton
 The website is designed to be clear and simple. To create a wireframe I used Balsamiq software. PDF file with my wireframe you cand find [here](/readme_images/wireframe_kovalenko_photography.pdf).
