@@ -166,5 +166,5 @@ The live link can be found [here](https://oleksiikova.github.io/kovalenko-photog
 
 ### Media
 
-- All images and photos on Kovalenko photography website were taken from [Pexels](https://www.pexels.com/).
+- All images and photos on Anna Kovalenko photography website were taken from [Pexels](https://www.pexels.com/).
 
