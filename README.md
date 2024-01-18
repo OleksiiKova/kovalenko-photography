@@ -103,15 +103,15 @@ For the contact page I selected an image that consists of similar shades of colo
 
 ### Features Left to Implement
 
-- As I progress through the course and learn the back-end, I would like to set correct value of the action attribute of the form tag. So after press the send button, I receive an email with data.
+- As I progress through the course and learn the back-end, I would like to set correct value of the action attribute for the form tag. So after press the send button, I receive an email with data.
 
 ## Testing 
 
 ### Manual testing
 
-- The Kovalenko photography website has been tested on different screen sizes (phone, tablets and laptop). 
+- The Kovalenko photography website has been tested on different screen sizes (phone, tablet and laptop). 
 - The website also has been tested on different browsers (Chrome, Opera, Safari and Microsoft Edge)
-- Logo, home, gallery and contact links in the navbar have been tested. When clicked, it will take you to the relevant page. Link's text on active page is underline.
+- Logo, home, gallery, about and contact links in the navbar have been tested. When clicked, it will take you to the relevant page. Link's text on active page is underline.
 - When you hover over a picture with the type of photo session, the text “Click to open gallery” appears. When clicked opens relevant gallery.
 - When you hover the button "Book a session" changes color of button, when you click button a little bit transform (creates the effect of pressing a physical button). 
 - Facebook and Instagram links on the footer opens relevant photographer's profile on social media platform. 
