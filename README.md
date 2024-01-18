@@ -39,13 +39,13 @@ To prevent the site from being too cluttered, I used a palette of only three col
 
 For the contact page I selected an image that consists of similar shades of color that I used for the content.
 
-![Colour_palette_Contact_page](/readme_images/Colour_palette_сontact.jpg)
+![Colour_palette_Contact_page](/readme_images/Colour_palette_сontact.png)
 
 ## Features
 
 ### Existing Features
 - __Navigation Bar__
-    - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Contact page and is identical in each page to allow for easy navigation.
+    - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, About and Contact page and is identical in each page to allow for easy navigation.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
     
     ![Nav Bar](readme_images/nav.png)
