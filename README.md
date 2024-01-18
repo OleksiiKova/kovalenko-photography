@@ -24,7 +24,8 @@ Website pages:
 1. Home page: contains introduction section and services section.
 2. Gallery page: allows to select three different gallery albums. 
 3. Gallery wedding/Gallery newborn/Gallery family: contains relevant photos.
-4. Contact page: allows user to stay in touch.
+4. About page: information about the photographer.
+5. Contact page: allows user to stay in touch.
 
 All pages have a header that allows you to navigate to different pages from any place and a footer that contains links to the photographer's social media.  
 
@@ -86,6 +87,13 @@ For the contact page I selected an image that consists of similar shades of colo
     
     ![The Gallery album page](readme_images/gallery_album.png)
 
+- __The About page__
+
+    - The about page contains information about photographer.
+    - This page allows to get to know the photographer better and introduces to the necessary initial information about the photo shoot.
+
+    ![The About page](readme_images/about.png)
+
 - __The Contact page__
 
     - This page allows the user to leave their contact information. So that the photographer can contact and discuss the details of the shooting.
@@ -115,7 +123,7 @@ For the contact page I selected an image that consists of similar shades of colo
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official W3C validator: [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Findex.html), [Gallery page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fgallery.html), [Gallery album page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fgallery_family.html), [Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fcontact.html).
+  - No errors were returned when passing through the official W3C validator: [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Findex.html), [Gallery page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fgallery.html), [Gallery album page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fgallery_family.html), [About page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fabout.html), [Contact page](https://validator.w3.org/nu/?doc=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Fcontact.html).
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Foleksiikova.github.io%2Fkovalenko-photography%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -158,5 +166,5 @@ The live link can be found [here](https://oleksiikova.github.io/kovalenko-photog
 
 ### Media
 
-- All images and photos on Kovalenko photography website (Home and Gallery page) were taken from [Pexels](https://www.pexels.com/).
+- All images and photos on Kovalenko photography website (Home, Gallery and About page) were taken from [Pexels](https://www.pexels.com/).
 
