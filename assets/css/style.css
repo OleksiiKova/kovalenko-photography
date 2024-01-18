@@ -639,7 +639,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .back {
@@ -682,7 +682,7 @@ footer {
     }
 
     .contact__form {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .contact__container {
