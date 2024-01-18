@@ -263,6 +263,7 @@ main {
 }
 
 /* ----------------Gallery page----------- */
+
 .gallery_list {
     display: flex;
     gap: 20px;
@@ -318,6 +319,7 @@ main {
 }
 
 /* ----------------About page------------- */
+
 .about_wrapper {
     margin-top: 90px;
     padding: 20px 0;
@@ -394,8 +396,11 @@ main {
 }
 
 .contact__container {
-    margin-top: 90px;
     padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 .contact__container h2 {
@@ -412,6 +417,7 @@ main {
 
 .contact__form label {
     font-size: 20px;
+    font-weight: 500;
 }
 
 .contact_required {
@@ -420,7 +426,7 @@ main {
 }
 
 .text-input {
-    padding: 0 5px;
+    padding: 0 10px;
     height: 25px;
     width: 300px;
     margin: 5px 0 20px 0;
@@ -428,6 +434,7 @@ main {
     border-radius: 5px;
     background-color: #E8CFBA;
     font-size: 16px;
+    color: #1B3550;
 }
 
 .button_contact {
@@ -438,8 +445,8 @@ main {
     padding: 10px;
 }
 
-
 /* ----------------Footer-------------------- */
+
 footer {
     background: rgb(232, 207, 186);
     background: linear-gradient(90deg, rgba(232, 207, 186, 1) 35%, rgba(205, 231, 238, 1) 100%);
@@ -492,7 +499,6 @@ footer {
         line-height: 20px;
     }
 }
-
 
 /* Media query: phone (before 767px) */
 
@@ -644,7 +650,6 @@ footer {
         margin-top: 80px;
     }
 
-
     /* About page */
 
     .about_wrapper {
@@ -671,19 +676,22 @@ footer {
     }
 
     /* Contact page */
+
     .text-input {
         width: 220px;
     }
 
     .contact__form {
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
 
     .contact__container {
         margin-top: 60px;
+        height: auto;
     }
 
     /* Footer  */
+
     footer {
         min-height: 36px;
     }
@@ -708,5 +716,26 @@ footer {
 
     .gallery__photos img {
         padding-bottom: 10px;
+    }
+}
+
+/* Media query: Landscape mode for big phones*/
+@media screen and (max-height: 700px) and (max-width: 1024px) and (min-width: 768px) {
+
+    /* Gallery */
+    .gallery_list {
+        margin-top: 90px;
+        height: auto;
+        margin-bottom: 60px;
+    }
+
+    /* Contact page */
+    .contact__container {
+        margin-top: 90px;
+        height: auto;
+    }
+
+    .contact__form {
+        margin-bottom: 60px;
     }
 }
