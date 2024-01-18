@@ -1,6 +1,6 @@
-# Kovalenko photography
+# Anna Kovalenko photography
 
-Kovalenko photography is a website that will help people find a professional photographer for their photo shoot. The site will be targeted toward people who want to capture different moments and events of their lives in photographs.
+Anna Kovalenko photography is a website that will help people find a professional photographer for their photo shoot. The site will be targeted toward people who want to capture different moments and events of their lives in photographs.
 
 ![Responsice Mockup](readme_images/mockup.png)
 
@@ -109,7 +109,7 @@ For the contact page I selected an image that consists of similar shades of colo
 
 ### Manual testing
 
-- The Kovalenko photography website has been tested on different screen sizes (phone, tablet and laptop). 
+- Anna Kovalenko photography website has been tested on different screen sizes (phone, tablet and laptop). 
 - The website also has been tested on different browsers (Chrome, Opera, Safari and Microsoft Edge)
 - Logo, home, gallery, about and contact links in the navbar have been tested. When clicked, it will take you to the relevant page. Link's text on active page is underline.
 - When you hover over a picture with the type of photo session, the text “Click to open gallery” appears. When clicked opens relevant gallery.
