@@ -271,12 +271,6 @@ main {
     align-items: center;
 }
 
-.footer-fixed-bottom {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 .gallery_list a {
     color: #1B3550;
 }
@@ -465,6 +459,12 @@ footer {
 .social-media__item i {
     font-size: 24px;
     color: #1B3550;
+}
+
+.footer-fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /* -------------------Media query--------------- */
@@ -705,6 +705,10 @@ footer {
     .social-media__item i {
         font-size: 18px;
     }
+
+    .footer-fixed-bottom {
+    position: inherit;
+}
 }
 
 /* Media query: small or portret phone (before 576) */
