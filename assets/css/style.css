@@ -469,8 +469,8 @@ footer {
 
 /* -------------------Media query--------------- */
 
-/* Media query: tablets (768-992px) */
-@media screen and (max-width: 992px) {
+/* Media query: tablets (768-1024px) */
+@media screen and (max-width: 1024px) {
 
     /* Gallery page */
     .gallery__photos {
